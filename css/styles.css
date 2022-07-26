@@ -1,0 +1,164 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1{
+  font-family: "Abril Fatface";
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+h2{
+  font-family: "Abril Fatface";
+  text-align: center;
+  font-size: 3rem;;
+}
+
+h3{
+  font-family: "Abril Fatface";
+  /* font-family: "Bebas Neue"; */
+  font-size: 2.2rem;
+}
+p{
+  color: #395B64;
+  font-family: "Patrick Hand";
+  font-size: 1.2rem;
+}
+
+
+.container-fluid{
+  padding: 4% 15% 9%;
+}
+
+.navbar{
+  padding:0 0  4.5rem;
+}
+.nav-link{
+  font-size: 1.4rem;
+}
+.nev-item{
+  padding: 0 18px;
+}
+
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Buttons  */
+.download-buttons{
+  margin: 3% 5% 3% 0;
+}
+
+/* Titile image */
+
+.titleimage{
+  width:50%;
+    transform: rotate(27deg);
+    position: absolute;
+    right: 33%;
+}
+
+/* feature section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* feature box */
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.dot{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.dot:hover{
+  color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+
+.testimonial-image{
+  width:20%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+
+}
+
+.pricing-column{
+ padding: 3% 2%;
+}
+
+
+
+@media (max-width:1028px) {
+
+    #title{
+      text-align: center;
+    }
+  .titleimage{
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding:7% 13%;
+  text-align: center;
+}
+
+.cta-heading{
+
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 10%;
+  text-align: center;
+}
+
+
+
+.socialicon{
+  margin:2% 1%;
+  font-size: 2.5rem;
+}
